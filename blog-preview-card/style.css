@@ -32,6 +32,10 @@ body {
     align-items: center;
 }
 
+.blog-text {
+    color: #6b6b6b;
+}
+
 .blog-author > p {
     padding-left: 12px;
     font-weight: 600;
