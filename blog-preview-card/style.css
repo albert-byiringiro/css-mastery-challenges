@@ -1,0 +1,33 @@
+body {
+    background-color: #F4D04E;
+    display: grid;
+    place-items: center;
+    color: #111;
+}
+
+.container {
+    background-color: white;
+    padding: 24px 0px 24px 24px;
+    width: 382px;
+    height: 522px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0px;
+    display: grid;
+}
+
+.blog-tag {
+    background-color: #F4D04E;
+    width: max-content;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.blog-author {
+    display: flex;
+    align-items: center;
+}
+
+.blog-author > p {
+    padding-left: 12px;
+    font-weight: 600;
+}
