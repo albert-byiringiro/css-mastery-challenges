@@ -135,6 +135,26 @@ h1 {
     color: var(--rose-800);
 }
 
+.bold-span {
+  font-weight: bold;
+}
+
+.recipe-details h2 {
+  color: var(--brown-800);
+}
+
+.recipe-details li::marker {
+  color: var(--brown-800);
+}
+
+ul {
+  padding: 0 20px;
+}
+
+ol {
+  padding: 0 20px;
+}
+
 .attribution {
     font-family: "Young Serif", sans-serif;
     font-size: 11px;
