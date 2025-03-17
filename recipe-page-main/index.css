@@ -120,6 +120,7 @@ body {
 
 h1 {
     font-family: "Young Serif";
+    font-weight: 300;
 }
 
 .preparation {
@@ -137,6 +138,11 @@ h1 {
 
 .bold-span {
   font-weight: bold;
+}
+
+.recipe-details {
+  padding-bottom: 12px;
+  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.5);
 }
 
 .recipe-details h2 {
