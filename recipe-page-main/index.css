@@ -138,6 +138,7 @@ h1 {
 
 .bold-span {
   font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .recipe-details {
@@ -180,6 +181,14 @@ tr::after {
   width: 100%;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+tr:last-child::after {
+  display: none;
+}
+
+p, li, td {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 td, th {
