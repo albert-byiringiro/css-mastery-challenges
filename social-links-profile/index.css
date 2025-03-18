@@ -14,6 +14,10 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: "Inter", serif;
     color: var(--white);
     background-color: var(--grey-900);
@@ -29,6 +33,21 @@ body {
     --grey-800: hsl(0, 0%, 12%);
     --grey-900: hsl(0, 0%, 8%);
 }
+
+/* styles */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    max-width: 1000px;
+    height: 800px;
+    background-color: var(--grey-800);
+    margin: 0 auto;
+    padding: 4rem;
+    border-radius: 20px;
+}
+
 
 .attribution {
     font-size: 11px;
