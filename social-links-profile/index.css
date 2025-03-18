@@ -53,7 +53,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
 }
 
 .portfolio-header-circular {
@@ -67,6 +67,15 @@ body {
 .portfolio-header-circular img {
     width: 100%;
     height: auto;
+}
+
+.portfolio-header-info p {
+    color: var(--green);
+    margin-top: 0.75em;
+}
+
+.portfolio-header-details {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .attribution {
