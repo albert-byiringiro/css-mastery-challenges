@@ -46,6 +46,38 @@ img {
   --rose-50: hsl(330, 100%, 98%);
 }
 
+/* Define Young Serif with weight 400 */
+@font-face {
+  font-family: "Young Serif";
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Define Outfit with weight 400 */
+@font-face {
+  font-family: "Outfit";
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Define Outfit with weight 600 */
+@font-face {
+  font-family: "Outfit";
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Define Outfit with weight 700 */
+@font-face {
+  font-family: "Outfit";
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Layout */
 
 /* .container {
