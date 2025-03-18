@@ -48,6 +48,12 @@ body {
     border-radius: 20px;
 }
 
+.portfolio-header {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+}
 
 .attribution {
     font-size: 11px;
